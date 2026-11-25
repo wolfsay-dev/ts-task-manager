@@ -5,7 +5,7 @@ on:
         branches: [main]
 
 jobs:
-    notify:
+    Sending:
         runs-on: ubuntu-latest
         steps:
             - name: Send Discord Webhook Message
