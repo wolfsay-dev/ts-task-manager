@@ -10,7 +10,7 @@ jobs:
         steps:
             - name: Send Discord Webhook Message
               env:
-                DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+                DISCORD_WEBHOOK_URL: ${{secrets.DISCORD_WEBHOOK_URL}}
               run: |
                                     curl -s -H "Content-Type: application/json" \
                                     -X POST \
