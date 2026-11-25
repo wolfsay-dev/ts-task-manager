@@ -25,4 +25,10 @@ function displayTasks() {
     })
 }
 
+function addTask(newTask: Task) {
+    tasks.push(newTask);
+    console.log(`Task "${newTask.name}" has been added.`);
+}
+
+addTask({ id: 3, name: "Review TypeScript code", completed: false });
 displayTasks();
