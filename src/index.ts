@@ -1,1 +1,3 @@
-import type { Task } from './types.ts';
+import { tasks } from './tasks.js';
+
+console.log(tasks);
