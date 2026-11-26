@@ -9,8 +9,8 @@ async function getTasks() {
         total: data.all,
         running: data.running,
         sleeping: data.sleeping,
-        pids: data.list.map(task => task.pid)
-
+        list: data.list
+    
     };
 
     } catch (error) {
